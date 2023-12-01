@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    background:hsl(0, 9%, 9%);
+    color: white;
+    width: calc(90% - 40px);
+    border-radius: 20px;
+    padding:0  20px;
+    top: 8px;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+   
+}
+nav li{
+    font-weight: 500;
+    cursor: pointer;
+}
+li:hover{
+    background:var(--lightgreen);
+    border-radius:12px ;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: black;
+    transition: padding 1s;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+}
+.signin{
+    background-color: #d3e87d;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}

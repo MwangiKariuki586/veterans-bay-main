@@ -1,0 +1,35 @@
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.intro{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.intro h1{
+    font-size: xx-large;
+}
+.intro p{
+    margin-bottom: 30px;
+}
+.intro button{
+    width: 150px;
+}
+.prof{
+    display: flex;
+    justify-content: flex-end;
+}
+.prof img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}

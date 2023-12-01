@@ -1,0 +1,40 @@
+.contact_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    border-radius: 12px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+input{
+    margin-bottom: 50px;
+    width: 50%;
+    position: relative;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: black;
+}
+textarea{
+    width: 50%;
+    background-color: var(--lightgreen);
+    border-radius: 20px 0 20px 0;
+    border: none;
+    padding: 10px;
+}
+::placeholder{
+    color: black;
+}
+.underline{
+    position: absolute;
+    height: 2px;
+    width: 52%;
+    background-color: black;
+    bottom: 0;
+}

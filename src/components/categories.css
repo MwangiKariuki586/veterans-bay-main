@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+}
+.categories{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.service{
+    border: 2px solid var(--lightgreen);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.icon{
+    width: 100px;
+}
+.service:hover{
+    background-color: var(--lightgreen);
+}

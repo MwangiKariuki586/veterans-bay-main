@@ -1,0 +1,30 @@
+.faqs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    background: black;
+    color: white;
+    border-radius: 12px;
+    padding:20px;
+
+}
+.faq{
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 12px;
+    /* border: 2px solid #d3e87d; */
+    gap: 20px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background: white; */
+}
+.faq:hover{
+   background:#d3e87d;
+   color: black;
+   border-radius: 12px;
+   cursor: pointer;
+}
