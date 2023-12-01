@@ -3,7 +3,7 @@ import {CiSquarePlus }from "react-icons/ci"
 import "./FAQ.css"
 const FAQ = () => {
   return (
-   <section>
+   <section id = "FAQ">
          <h2 className='header'>FAQS</h2>
     <div className='faqs'>
       <div className='faq'>

@@ -15,15 +15,21 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
             <ul>
+                <a href="#categories">
                 <li>
                   services
                 </li>
+                </a>
+                <a href="#FAQ">
                 <li>
-                    FAQ
+                  FAQ
                 </li>
+                </a>
+                <a href="#contact">
                 <li>
-                    contact
+                  contact
                 </li>
+                </a>
                 <li style={{border:'2px solid #d3e87d',padding:'1px 9px',borderRadius:'7px',cursor:'pointer'}}>
                     Sign In
                 </li>

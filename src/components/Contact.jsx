@@ -3,7 +3,7 @@ import contact from "../images/call us.jpg"
 import "./contact.css"
 const Contact = () => {
   return (
-    <section >
+    <section id='contact'>
       <div>
         <h2 className='header'>Contact Us</h2>
       </div>
