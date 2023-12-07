@@ -4,16 +4,10 @@ import "./FAQ.css"
 const FAQ = () => {
   return (
    <section id = "FAQ">
-         <h2 className='header'>FAQS</h2>
+    <div>
+      <h2 className='header'>FAQS</h2>
+    </div>
     <div className='faqs'>
-      <div className='faq'>
-        <CiSquarePlus />
-        <p>How do i connect with the service man?</p>
-      </div>
-      <div className='faq'>
-        <CiSquarePlus />
-        <p>How do i connect with the service man?</p>
-      </div>
       <div className='faq'>
         <CiSquarePlus />
         <p>How do i connect with the service man?</p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll'
+import { MdMenu } from "react-icons/md";
 const Navbar = () => {
   return (
     
@@ -33,7 +34,9 @@ const Navbar = () => {
                 <li style={{border:'2px solid #d3e87d',padding:'1px 9px',borderRadius:'7px',cursor:'pointer'}}>
                     Sign In
                 </li>
+                
             </ul>
+            <MdMenu />
         </div>
       </nav>
     </div>

@@ -34,3 +34,6 @@
 .service:hover{
     background-color: var(--lightgreen);
 }
+@media screen and (max-width: 480px){
+    
+}
