@@ -44,3 +44,13 @@ textarea{
     background-color: black;
     bottom: 0;
 }
+@media screen and (max-width: 480px){
+    .contact_form{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

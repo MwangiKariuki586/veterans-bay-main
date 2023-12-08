@@ -26,3 +26,11 @@ button{
 .header{
   text-align: center;
 }
+@media screen and (max-width: 480px){
+  :root{
+    margin:0 2%;
+  }
+  section{
+    height: 80vh;
+  }
+}

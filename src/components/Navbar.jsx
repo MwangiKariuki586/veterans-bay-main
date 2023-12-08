@@ -36,8 +36,8 @@ const Navbar = () => {
                 </li>
                 
             </ul>
-            <MdMenu />
         </div>
+          <MdMenu className="hamburger" />
       </nav>
     </div>
     

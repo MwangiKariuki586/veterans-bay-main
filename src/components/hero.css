@@ -33,3 +33,22 @@
     aspect-ratio: 1/1;
     border-radius: 20px;
 }
+@media screen and (max-width: 480px){
+    .hero{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .intro p{
+        font-size: larger;
+    }
+    .prof{
+        justify-content: center;
+    }
+    .intro{
+        text-align: center;
+    }
+    .prof img{
+        width: 100%;
+    }
+}
