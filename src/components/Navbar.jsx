@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-scroll'
 import { MdMenu } from "react-icons/md";
 const Navbar = () => {
+  
+      const [isnavExpand,setIsnavExpand] = useState(false)
+      const activateNav = () => {
+        setIsnavExpand(!isnavExpand)
+      }
+  
   return (
-    
     <div>
       <nav>
         <div className="logo">
