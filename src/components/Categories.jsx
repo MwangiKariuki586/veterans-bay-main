@@ -12,6 +12,7 @@ import { PiPoliceCarDuotone } from 'react-icons/pi';
 import { MdOutlineRealEstateAgent } from 'react-icons/md';
 import { RiPsychotherapyLine } from 'react-icons/ri';
 import { SiWebmoney } from 'react-icons/si';
+import { Link } from 'react-router-dom';
 const Categories = () => {
   return (
     <section id='categories' className="categories">
@@ -107,14 +108,16 @@ const Categories = () => {
             Therapy
           </p>
         </div>
-        <div className="service">
-          <div className="icon">
-            <CiCircleMore/>
+        <Link>
+          <div className="service">
+            <div className="icon">
+              <CiCircleMore/>
+            </div>
+            <p>
+              More
+            </p>
           </div>
-          <p>
-            More
-          </p>
-        </div>
+        </Link>
       </div>
   </section>
   )

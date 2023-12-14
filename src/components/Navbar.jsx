@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { Link } from 'react-scroll'
-import { MdMenu } from "react-icons/md";
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   
       const [isnavExpand,setIsnavExpand] = useState(false)
@@ -12,14 +11,20 @@ const Navbar = () => {
   return (
     <div>
       <nav>
+        <div className="nav-header">
         <div className="logo">
-            
-          <Link to= {'/signin'}>
+          <Link to= {"/"}>
             <h2>Vetarans Bay</h2>
           </Link>
-            
         </div>
-        <div className="nav-links">
+        <div className="hamburger" onClick={activateNav}>
+          <span></span>
+          <span className = "oddout"></span>
+          <span></span>
+        </div>
+        {/* <MdMenu className="hamburger" /> */}
+        </div>
+        <div className={isnavExpand ? "nav-links":"nav-links open"}>
             <ul>
                 <a href="#categories">
                 <li>
@@ -36,13 +41,14 @@ const Navbar = () => {
                   contact
                 </li>
                 </a>
-                <li style={{border:'2px solid #d3e87d',padding:'1px 9px',borderRadius:'7px',cursor:'pointer'}}>
-                    Sign In
-                </li>
-                
+                <Link to="/signin">
+                  <li style={{border:'2px solid #d3e87d',padding:'1px 9px',borderRadius:'7px',cursor:'pointer'}}>
+                      Sign In
+                  </li>
+                </Link>
             </ul>
         </div>
-          <MdMenu className="hamburger" />
+          
       </nav>
     </div>
     

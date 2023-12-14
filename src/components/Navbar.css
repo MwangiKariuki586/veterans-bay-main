@@ -51,11 +51,35 @@ li:hover{
 @media screen and (max-width: 480px){
     nav{
         width: 86%;
+        flex-direction: column;
+        height: fit-content;
+        
+    }
+    .logo{
+        margin-right: 60px;
+    }
+    .nav-header{
+        display: flex;
+        align-items: center;
     }
     .hamburger{
+        margin-left: 80px;
         display: block;
     }
-    .nav-links{
+    .hamburger span{
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        justify-content: center; 
+    }
+    .open{
         display: none;
+        /* transition: height 2s; */
     }
 }
