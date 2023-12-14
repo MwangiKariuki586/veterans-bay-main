@@ -108,7 +108,7 @@ const Categories = () => {
             Therapy
           </p>
         </div>
-        <Link>
+        <Link style={{color:"black"}} to={"/addservice"}>
           <div className="service">
             <div className="icon">
               <CiCircleMore/>

@@ -27,6 +27,11 @@ input{
     padding: 10px;
     color: black;
 }
+form button{
+    margin-top: 50px;
+    background-color: hsl(0, 9%, 9%);
+    color: white;
+}
 textarea{
     width: 50%;
     background-color: var(--lightgreen);

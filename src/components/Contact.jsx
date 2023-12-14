@@ -15,6 +15,7 @@ const Contact = () => {
         <input type="email" placeholder='Enter your email' />
         <div className="underline"/>
         <textarea name="" id="" cols="30" rows="5" placeholder='Enter your Message'></textarea>
+        <button>Submit</button>
       </form>
       </div>
       
