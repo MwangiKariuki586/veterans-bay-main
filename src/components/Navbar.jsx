@@ -26,21 +26,21 @@ const Navbar = () => {
         </div>
         <div className={isnavExpand ? "nav-links":"nav-links open"}>
             <ul>
-                <a href="#categories">
-                <li>
-                  services
-                </li>
-                </a>
-                <a href="#FAQ">
-                <li>
-                  FAQ
-                </li>
-                </a>
-                <a href="#contact">
-                <li>
-                  contact
-                </li>
-                </a>
+                <Link to={"/services"}>
+                  <li>
+                    services
+                  </li>
+                </Link>
+                <Link to={"/FAQs"}>
+                  <li>
+                    FAQ
+                  </li>
+                </Link>
+                <Link to={"/contact"}>
+                  <li>
+                    contact
+                  </li>
+                </Link>
                 <Link to="/signin">
                   <li style={{border:'2px solid #d3e87d',padding:'1px 9px',borderRadius:'7px',cursor:'pointer'}}>
                       Sign In

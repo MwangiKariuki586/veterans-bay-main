@@ -42,13 +42,13 @@ textarea{
 ::placeholder{
     color: black;
 }
-.underline{
+/* .underline{
     position: absolute;
     height: 2px;
     width: 52%;
     background-color: black;
     bottom: 0;
-}
+} */
 @media screen and (max-width: 480px){
     .contact_form{
         grid-template-columns: 1fr;
