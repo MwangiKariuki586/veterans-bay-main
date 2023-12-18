@@ -9,11 +9,11 @@ const Contact = () => {
       </div>
       <div className='contact_form'>
         <img src={contact} alt="" />
-        <form>
-          <input type="text" name="" id="" placeholder='Enter your fullname' />
-          <input type="email" placeholder='Enter your email' />
-          <textarea name="" id="" cols="30" rows="5" placeholder='Enter your Message'></textarea>
-          <button>Submit</button>
+        <form className='message-us'>
+          <input className='input' type="text" name="" id="" placeholder='Enter your fullname' />
+          <input className='input' type="email" placeholder='Enter your email' />
+          <textarea className='textarea' name="" id="" cols="30" rows="5" placeholder='Enter your Message'></textarea>
+          <button className='submit-btn'>Submit</button>
         </form>
       </div>
     </section>

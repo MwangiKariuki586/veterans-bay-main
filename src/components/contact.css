@@ -7,17 +7,20 @@
 .contact_form{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
 img{
     border-radius: 12px;
+    max-width: 100%;
 }
-form{
+.message-us{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
 }
-input{
+.input{
     margin-bottom: 50px;
     width: 50%;
     position: relative;
@@ -27,12 +30,12 @@ input{
     padding: 10px;
     color: black;
 }
-form button{
+.submit-btn{
     margin-top: 50px;
     background-color: hsl(0, 9%, 9%);
     color: white;
 }
-textarea{
+.textarea{
     width: 50%;
     background-color: var(--lightgreen);
     border-radius: 20px 0 20px 0;
