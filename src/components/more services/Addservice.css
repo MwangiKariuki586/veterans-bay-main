@@ -1,20 +1,47 @@
 .add-service{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content:center;
-    background-image: url(../../images/prof-at-work.jpg);
+    /* background-image: url(../../images/prof-at-work.jpg);
     background-position: right;
     background-size: 600px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
-form{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.add-service-form{
+    margin-top: 0;
 }
-form button{
-    /* margin-top: 50px; */
+.service-name{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: black;
+}
+.import-image{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: black;
+}
+.expected-charges{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: black;
+}
+.add-service-btn{
     background-color: hsl(0, 9%, 9%);
     color: white;
 }

@@ -6,11 +6,11 @@ const Addservice = () => {
       <div>
         <h2 className='header'>Add service</h2>
       </div>
-      <form>
-        <input style={{width:"350px"}} type="text" placeholder='Name of service' />
-        <input style={{width:"350px"}} type="file" name="" id="" />
-        <input style={{width:"350px"}} type="text" placeholder='Expected charges' />
-        <button>Submit</button>
+      <form className='add-service-form'>
+        <input className='service-name' type="text" placeholder='Name of service' />
+        <input className='import-image' type="file" name="" id="" />
+        <input className='expected-charges' type="number" placeholder='Expected charges' />
+        <button className='add-service-btn'>Submit</button>
       </form>
     </section>
   )

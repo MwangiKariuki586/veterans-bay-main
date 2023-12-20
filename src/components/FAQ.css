@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     gap:5px;
-    background: black;
+    background: hsl(0, 9%, 9%);
     color: white;
     border-radius: 12px;
     padding:20px;

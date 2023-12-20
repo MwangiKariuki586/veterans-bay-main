@@ -6,23 +6,28 @@
 }
 .contact_form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: aqua; */
 }
-img{
+.contact-img{
     border-radius: 12px;
     max-width: 100%;
+    display: none;
 }
 .message-us{
+    margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
+    /* background-color: red; */
+    /* align-items: center;
+    justify-content:center; */
 }
-.input{
+.inputbox{
     margin-bottom: 50px;
-    width: 50%;
+    width: 100%;
     position: relative;
     background-color: var(--lightgreen);
     border-radius: 20px;
@@ -35,8 +40,8 @@ img{
     background-color: hsl(0, 9%, 9%);
     color: white;
 }
-.textarea{
-    width: 50%;
+.textareabox{
+    width: 100%;
     background-color: var(--lightgreen);
     border-radius: 20px 0 20px 0;
     border: none;
@@ -45,20 +50,23 @@ img{
 ::placeholder{
     color: black;
 }
-/* .underline{
-    position: absolute;
-    height: 2px;
-    width: 52%;
-    background-color: black;
-    bottom: 0;
-} */
 @media screen and (max-width: 480px){
-    .contact_form{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    img{
+    .contact-img{
         width: 100%;
         margin-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .contact_form{
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-img{
+        display: block;
+    }
+    .inputbox{
+        width: 50%;
+    }
+    .textareabox{
+        width: 50%;
     }
 }
