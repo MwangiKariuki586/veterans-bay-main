@@ -50,10 +50,10 @@ li:hover{
 }
 @media screen and (max-width: 480px){
     nav{
-        width: 86%;
+        width: 90%;
         flex-direction: column;
         height: fit-content;
-        
+        padding:1px 5px;
     }
     .logo{
         margin-right: 60px;

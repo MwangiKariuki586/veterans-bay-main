@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import './Navbar.css'
 import { Link } from 'react-router-dom'
+import { MdMenu } from 'react-icons/md';
+import './Navbar.css'
 const Navbar = () => {
   
       const [isnavExpand,setIsnavExpand] = useState(false)
@@ -12,17 +13,13 @@ const Navbar = () => {
     <div>
       <nav>
         <div className="nav-header">
-        <div className="logo">
-          <Link to= {"/"}>
-            <h2>Vetarans Bay</h2>
-          </Link>
-        </div>
-        <div className="hamburger" onClick={activateNav}>
-          <span></span>
-          <span className = "oddout"></span>
-          <span></span>
-        </div>
-        {/* <MdMenu className="hamburger" /> */}
+          <div className="logo">
+            <Link to= {"/"}>
+              <h2>Vetarans Bay</h2>
+            </Link>
+          </div>
+    
+          <MdMenu className="hamburger" />
         </div>
         <div className={isnavExpand ? "nav-links":"nav-links open"}>
             <ul>
