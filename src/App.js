@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Categories from './components/Categories';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
+import Plumbing from './components/categories/Plumbing';
 function App() {
   return (
     <div className='App'>
@@ -19,6 +20,7 @@ function App() {
             <Route path = "/contact" element = {<Contact/>}/>
             <Route path="/signin" element = {<Signin/>}/>
             <Route path="/addservice" element = {<Addservice/>}/>
+            <Route path='/plumbing' element = {<Plumbing/>}/>
           </Routes>
         </BrowserRouter>
     </div>

@@ -7,6 +7,9 @@
 section{
   height: 90vh;
 }
+Link{
+  color:black
+}
 a{
   text-decoration: none;
   color: white;

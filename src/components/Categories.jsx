@@ -20,14 +20,16 @@ const Categories = () => {
         <h2 className='header'>Categories</h2>
       </div>
       <div className="services">
-        <div className="service">
+        <Link style={{color:"black"}} to={"/plumbing"}>
+          <div className="service">
           <div className="icon">
             <GiKitchenTap/>
           </div>
           <p>
             Plumbing
           </p>
-        </div>
+          </div>
+        </Link>
         <div className="service">
           <div className="icon">
             <MdElectricBolt/>
