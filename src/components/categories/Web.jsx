@@ -1,7 +1,7 @@
 import React from 'react'
 import plumbers from '../../data/plumbing'
 import "./plumbing.css"
-const Plumbing = () => {
+const Web = () => {
   const plumbing_services = plumbers.map(plumb =>
     <div className='plumbers_info' key={plumbers.id}>
             <img className='plumber_img' src={plumb.imageurl} alt="" />
@@ -14,7 +14,7 @@ const Plumbing = () => {
   return (
     <section className='plumbers_services'>
       <div>
-        <h2 className='header'>Plumbing Services</h2>
+        <h2 className='header'>Web Services</h2>
       </div>
       <div className='plumbers'>
         {plumbing_services}
@@ -24,4 +24,4 @@ const Plumbing = () => {
   )
 }
 
-export default Plumbing
+export default Web

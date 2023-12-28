@@ -6,13 +6,13 @@ const plumbers = [
         {
             id:"1",
             name:"Dan James",
-            imageurl:"../images/plumber1.jpg",
-            experience:"2years",
-            charges_per_hour:"10",
+            imageurl:image1,
+            experience:"2years experience",
+            charges_per_hour:"10$/hour",
             contact:"0728946287"
         },
-        {id:"2",name:"Ruben Dias",imageurl:"../images/plumber2.jpg",experience:"3years",charges_per_hour:"12",contact:"0728946287"},
-        {id:"3",name:"James Kamau",imageurl:"../images/plumber3.jpg",experience:"3years",charges_per_hour:"13",contact:"0728946287"},
+        {id:"2",name:"Ruben Dias",imageurl:image2,experience:"3years experience",charges_per_hour:"12$/hour",contact:"0728946287"},
+        {id:"3",name:"James Kamau",imageurl:image3,experience:"4years experience",charges_per_hour:"13$/hour",contact:"0728946287"},
     
 ]
 export default plumbers

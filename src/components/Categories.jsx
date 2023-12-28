@@ -30,86 +30,106 @@ const Categories = () => {
           </p>
           </div>
         </Link>
-        <div className="service">
-          <div className="icon">
-            <MdElectricBolt/>
+        <Link style={{color:"black"}} to={"/electrical"}>
+          <div className="service">
+            <div className="icon">
+              <MdElectricBolt/>
+            </div>
+            <p>
+              Electrical
+            </p>
           </div>
-          <p>
-            Electrical
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <SiBmcsoftware/>
+        </Link>
+        <Link style={{color:"black"}} to={"/software"}>
+          <div className="service">
+            <div className="icon">
+              <SiBmcsoftware/>
+            </div>
+            <p>
+              Software
+            </p>
           </div>
-          <p>
-            Software
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <SiWebmoney/>
+        </Link>
+        <Link style={{color:"black"}} to={"/web"}>
+          <div className="service">
+            <div className="icon">
+              <SiWebmoney/>
+            </div>
+            <p>
+              Web
+            </p>
           </div>
-          <p>
-            Web
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <FaChalkboardTeacher/>
+        </Link>
+        <Link style={{color:"black"}} to={"/tutoring"}>
+          <div className="service">
+            <div className="icon">
+              <FaChalkboardTeacher/>
+            </div>
+            <p>
+              Tutoring
+            </p>
           </div>
-          <p>
-            Tutoring
-          </p>
-        </div>
-        <div className="service">
+        </Link>
+        <Link style={{color:"black"}} to={"/consultation"}>
+          <div className="service">
           <div className="icon">
             <MdOutlinePhoneInTalk/>
           </div>
           <p>
             Consultation
           </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <GoLaw/>
           </div>
-          <p>
-            Legal services
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <TbBabyCarriage/>
+        </Link>
+        <Link style={{color:"black"}} to={"/legal"}>
+          <div className="service">
+            <div className="icon">
+              <GoLaw/>
+            </div>
+            <p>
+              Legal services
+            </p>
           </div>
-          <p>
-            Baby Care
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <PiPoliceCarDuotone/>
+        </Link>
+        <Link style={{color:"black"}} to={"/babycare"}>
+          <div className="service">
+            <div className="icon">
+              <TbBabyCarriage/>
+            </div>
+            <p>
+              Baby Care
+            </p>
           </div>
-          <p>
-            Car sevices
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <MdOutlineRealEstateAgent/>
+        </Link>
+        <Link style={{color:"black"}} to={"/carservices"}>
+          <div className="service">
+            <div className="icon">
+              <PiPoliceCarDuotone/>
+            </div>
+            <p>
+              Car sevices
+            </p>
           </div>
-          <p>
-            Real Estate
-          </p>
-        </div>
-        <div className="service">
-          <div className="icon">
-            <RiPsychotherapyLine/>
+        </Link>
+        <Link style={{color:"black"}} to={"/realestate"}>
+          <div className="service">
+            <div className="icon">
+              <MdOutlineRealEstateAgent/>
+            </div>
+            <p>
+              Real Estate
+            </p>
           </div>
-          <p>
-            Therapy
-          </p>
-        </div>
+        </Link>
+        <Link style={{color:"black"}} to={"/therapy"} >
+          <div className="service">
+            <div className="icon">
+              <RiPsychotherapyLine/>
+            </div>
+            <p>
+              Therapy
+            </p>
+          </div>
+        </Link>
         <Link style={{color:"black"}} to={"/addservice"}>
           <div className="service">
             <div className="icon">
