@@ -1,8 +1,9 @@
 import React from 'react'
 import plumbers from '../../data/plumbing'
 import "./plumbing.css"
+import car from '../../data/carservices'
 const Carservices = () => {
-  const plumbing_services = plumbers.map(plumb =>
+  const car_services = car.map(plumb =>
     <div className='plumbers_info' key={plumbers.id}>
             <img className='plumber_img' src={plumb.imageurl} alt="" />
             <h2>{plumb.name}</h2>
@@ -17,7 +18,7 @@ const Carservices = () => {
         <h2 className='header'>Car Services</h2>
       </div>
       <div className='plumbers'>
-        {plumbing_services}
+        {car_services}
       </div>
       
     </section>

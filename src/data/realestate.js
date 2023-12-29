@@ -1,7 +1,7 @@
-import image1 from "../images/Electrician1.jpg"
-import image2 from "../images/Electrician2.jpg"
-import image3 from "../images/Electrician3.jpg"
-const Electricians = [
+import image1 from "../images/realestate1.jpg"
+import image2 from "../images/realestate2.jpg"
+import image3 from "../images/realestate3.jpg"
+const realestatedb = [
     
         {
             id:"1",
@@ -15,4 +15,4 @@ const Electricians = [
         {id:"3",name:"James Kamau",imageurl:image3,experience:"4years experience",charges_per_hour:"13$/hour",contact:"0728946287"},
     
 ]
-export default Electricians
+export default realestatedb

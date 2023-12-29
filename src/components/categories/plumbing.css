@@ -10,6 +10,7 @@
 }
 .plumber_img{
     width: 22vw;
+    aspect-ratio: 1/0.7;
     border-radius: 10px;
     transition: transform 1.3s;
 }
