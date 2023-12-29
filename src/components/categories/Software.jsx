@@ -1,8 +1,9 @@
 import React from 'react'
-import plumbers from '../../data/plumbing'
+import plumbers from '../../data/software'
 import "./plumbing.css"
+import Softwaredev from '../../data/software'
 const Software = () => {
-  const plumbing_services = plumbers.map(plumb =>
+  const software_services = Softwaredev.map(plumb =>
     <div className='plumbers_info' key={plumbers.id}>
             <img className='plumber_img' src={plumb.imageurl} alt="" />
             <h2>{plumb.name}</h2>
@@ -17,7 +18,7 @@ const Software = () => {
         <h2 className='header'>Software Services</h2>
       </div>
       <div className='plumbers'>
-        {plumbing_services}
+        {software_services}
       </div>
       
     </section>

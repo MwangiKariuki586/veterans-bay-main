@@ -1,8 +1,9 @@
 import React from 'react'
-import plumbers from '../../data/plumbing'
+import plumbers from '../../data/Web'
 import "./plumbing.css"
+import Webdev from '../../data/Web'
 const Web = () => {
-  const plumbing_services = plumbers.map(plumb =>
+  const web_services = Webdev.map(plumb =>
     <div className='plumbers_info' key={plumbers.id}>
             <img className='plumber_img' src={plumb.imageurl} alt="" />
             <h2>{plumb.name}</h2>
@@ -17,7 +18,7 @@ const Web = () => {
         <h2 className='header'>Web Services</h2>
       </div>
       <div className='plumbers'>
-        {plumbing_services}
+        {web_services}
       </div>
       
     </section>
