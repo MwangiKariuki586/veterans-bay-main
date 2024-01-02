@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav>
         <div className="nav-header">
           <div className="logo">
-            <Link to= {"/"}>
+            <Link onClick={navMinimize} to= {"/"}>
               <h2>Vetarans Bay</h2>
             </Link>
           </div>

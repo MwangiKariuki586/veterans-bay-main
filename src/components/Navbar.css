@@ -56,6 +56,7 @@ li:hover{
         height: fit-content;
         padding:1px 5px;
         justify-content: center;
+        z-index: 2;
     }
     .logo{
         margin-right: 60px;
@@ -79,10 +80,9 @@ li:hover{
     .nav-links ul{
         flex-direction: column;
         justify-content: center;
-       
+        height: 85vh;
     }
     .open{
         display: none;
-        /* transition: height 2s; */
     }
 }

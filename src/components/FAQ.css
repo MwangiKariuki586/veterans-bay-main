@@ -12,7 +12,7 @@
     gap:5px;
     background: hsl(0, 9%, 9%);
     color: white;
-    border-radius: 12px;
+    border-radius: 20px;
     padding:20px;
 }
 .faq{
@@ -32,7 +32,11 @@
    cursor: pointer;
 }
 @media screen and (max-width:480px){
+    #FAQ{
+        width: 96%;
+    }
     .faqs{
         grid-template-columns: 1fr;
+        gap: 0;
     }
 }
