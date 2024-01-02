@@ -38,6 +38,6 @@ button{
     margin:0 2%;
   }
   section{
-    height: 80vh;
+    /* height: 80vh; */
   }
 }

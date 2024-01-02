@@ -31,6 +31,16 @@
     padding: 10px;
     color: black;
 }
+.select_categories{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    color: black;
+}
 .expected-charges{
     margin-bottom: 50px;
     width: 100%;

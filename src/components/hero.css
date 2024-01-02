@@ -35,9 +35,9 @@
 }
 @media screen and (max-width: 480px){
     .hero{
-        grid-template-columns: 1fr;
+        display: block;
         justify-content: center;
-        margin-top: 90px;
+        width: 96%;
     }
     .intro p{
         font-size: larger;
@@ -49,6 +49,6 @@
         text-align: center;
     }
     .prof img{
-       max-width: 100%;
+       display: none;
     }
 }

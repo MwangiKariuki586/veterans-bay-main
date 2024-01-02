@@ -31,3 +31,8 @@
    border-radius: 12px;
    cursor: pointer;
 }
+@media screen and (max-width:480px){
+    .faqs{
+        grid-template-columns: 1fr;
+    }
+}

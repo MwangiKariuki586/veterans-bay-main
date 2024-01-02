@@ -14,6 +14,19 @@ const Addservice = () => {
       <form className='add-service-form'>
         <input className='service-name' maxlength="10" type="text" placeholder='Enter your name'/>
         <input className='import-image' type="file" name="" id="" placeholder='select an image'/>
+        <select className='select_categories' name="" id="">
+          <option value="plumbing">Plumbing</option>
+          <option value="electrical">Elecctrical</option>
+          <option value="software">Software</option>
+          <option value="web">Web</option>
+          <option value="tutoring">Tutoring</option>
+          <option value="consultation">Consultation</option>
+          <option value="legal">Legal</option>
+          <option value="babycare">Babycare</option>
+          <option value="carservices">Car services</option>
+          <option value="realestate">Realestate</option>
+          <option value="therapy">Therapy</option>
+        </select>
         <input className='service-name' type="number" placeholder='years of experience'/>
         <input className='expected-charges' type="number" placeholder='charges/hour' />
         <input className='service-name' type="number" placeholder='phone-number'  />

@@ -1,9 +1,14 @@
+.plumbers_services{
+    margin-top: 40%;
+}
 .plumbers{
     display: flex;
+    flex-direction: column;
     gap:10px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 }
 .plumbers_info{
     transition: padding 1.3s;
@@ -17,8 +22,11 @@
 .plumber_img:hover{
     transform: scaleY(1.2);
 }
-/* .plumbers_info:hover{
-    border: 2px solid #d3e87d;
-    border-radius: 10px;
-    padding: 10px;
-} */
+@media screen and (min-width : 480px) {
+    .plumbers_services{
+        margin-top: auto;
+    }
+    .plumbers{
+        flex-direction: row;
+    }
+}

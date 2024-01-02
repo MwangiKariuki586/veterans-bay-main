@@ -22,6 +22,7 @@ nav{
 .nav-links ul{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     list-style: none;
    
@@ -54,6 +55,7 @@ li:hover{
         flex-direction: column;
         height: fit-content;
         padding:1px 5px;
+        justify-content: center;
     }
     .logo{
         margin-right: 60px;
@@ -76,7 +78,8 @@ li:hover{
     }
     .nav-links ul{
         flex-direction: column;
-        justify-content: center; 
+        justify-content: center;
+       
     }
     .open{
         display: none;
