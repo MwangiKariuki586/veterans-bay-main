@@ -11,7 +11,7 @@ body{
 .container{
     width: 350px;
     height: 515px;
-    margin: 100px auto 0;
+    margin: 200px auto 0;
     border-radius: 20px;
     perspective: 1000px;
 }
